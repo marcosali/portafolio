@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="luz.css" />
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Marco</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li>
+                        <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+                    </li>
+                    <li>
+                        <a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a>
+                    </li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="marco.png" alt="" />
+            </div>
+            <h1>MARCO SALINAS</h1>
+            <h2>Developer - junior</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/marco.salinas.581?mibextid=9R9pXO"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/Antonio30505173?t=SUfUJARZbMZvgJMnsNevOA&s=09"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/mantss00?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/marco-antonio-salinas-solis-9b90bb21a"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.snapchat.com/add/antonio_ss21?share_id=6wOW8ux2Rp0&locale=es-US"><i
+                        class="fa-brands fa-snapchat"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p>
+                <span>Hola, soy Marco Salinas.</span> Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Dignissimos, vero quae commodi itaque
+                tempora quidem eaque minima reprehenderit! Adipisci, dolores commodi
+                nesciunt nihil veniam ullam cumque quae quisquam in vero.
+            </p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-10-1999
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3202751177
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            marcosalinassolis8@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Direccio</strong>
+                            cr 23 c # 5 ciudad cordoba cali
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Developer</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <samp>JUEGOS</samp>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <samp>VIAJAR</samp>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-android"></i>
+                            <span>ANDROID</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Tecnico Skill -->
+                <div class="col">
+                    <h3>Tecnico Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profecional Skills -->
+                <div class="col">
+                    <h3>Profecional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Analisis y desarrollo de software</h4>
+                        <span class="casa">Sena Sofia Plus</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>
+                            El programa de Tecnología en Análisis y Desarrollo de Software es un programa de estudios
+                            diseñado para formar profesionales con los conocimientos y habilidades necesarias para el
+                            diseño, desarrollo y mantenimiento de sistemas informáticos.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Mantenimiento de Equipos de Cómputo e Instalación de Redes</h4>
+                        <span class="casa">Intecol</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>
+                            Estoy en la capacidad de detectar y solucionar problemas o fallas de Hardware y Software
+                            que se puedan presentar en los equipos de cómputo, mediante mantenimiento preventivo,
+                            correctivo, etc, asesorar y hacer la instalación de redes de las pequeñas y medianas
+                            empresas, diseñar páginas web o programas de juegos y aplicaciones.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Fron Developer</h4>
+                        <span class="casa">JAM Creative Estudio</span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>
+                            Nos dedicamos apasionadamente a la creación de páginas web personalizadas, diseñadas
+                            meticulosamente para satisfacer las necesidades únicas de cada cliente. Nuestra misión es
+                            impulsar la presencia en línea de tu negocio, proporcionando soluciones que no solo sean
+                            visualmente impactantes, sino también altamente funcionales.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tecnico en soporte</h4>
+                        <span class="casa">Synerjoy</span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>
+                            Estamos encargados de realizar soporte a aplicaciones, encargado de crear plantillas de correo electronicos 
+                            configuracion y creacion de usuarios, mantenimiento correctivo y preventivo de equipos de computo, instalacion de
+                            redes, manejo basico de base de datos, implementacion de aplicativos, automatizacion de trabajo.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="p2.png" alt="" />
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="" alt="" />
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre" />
+                    <input type="text" placeholder="Numero telefonico" />
+                    <input type="text" placeholder="Direccion de correo" />
+                    <input type="text" placeholder="Tema" />
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="ubicacion.png" alt="" />
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Colombia, Cali valle del Cauca
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 3202751177
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i> 
+                                Email: marcosalinassolis8@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+        </div>
+    </footer>
+    <!-- SCIRPT -->
+    <script src="app.js"></script>
+</body>
+
+</html>
